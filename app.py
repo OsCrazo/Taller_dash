@@ -42,6 +42,7 @@ def load_data():
 
     return dfWork
     
+# Cambio para prueba de sincronización con GitHub
 
 # Cargar datos
 data = load_data()
