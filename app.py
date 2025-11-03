@@ -18,7 +18,7 @@ server = app.server
 app.config.suppress_callback_exceptions = True
 
 
-# Load data from csv
+# Load data from csv (ajustado desde VSCode, con nueva rama)
 def load_data():
     """
     Carga el archivo datos_energia.csv como DataFrame, convierte la columna 
@@ -42,6 +42,7 @@ def load_data():
 
     return dfWork
     
+# Cambio para prueba de sincronización con GitHub
 
 # Cargar datos
 data = load_data()
